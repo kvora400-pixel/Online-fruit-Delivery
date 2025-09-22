@@ -1,0 +1,207 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="FruitMaster.master.cs" Inherits="OnlineFruitDelivery.Admin.FruitMaster" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4fff4; /* light green background */
+        }
+
+        .wrapper {
+            display: flex;
+        }
+        /* Sidebar */
+        .sidebar {
+            width: 250px;
+            background: #27ae60; /* parrot green */
+            min-height: 100vh;
+            color: white;
+            position: fixed;
+        }
+
+            .sidebar .profile_info {
+                text-align: center;
+                padding: 20px;
+                border-bottom: 1px solid rgba(255,255,255,0.3);
+            }
+
+                .sidebar .profile_info .name {
+                    font-weight: bold;
+                    color: #f1fdf1;
+                }
+
+        .sidebar_menu {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+            .sidebar_menu li {
+                border-bottom: 1px solid rgba(255,255,255,0.1);
+            }
+
+                .sidebar_menu li a {
+                    display: flex;
+                    align-items: center;
+                    padding: 15px;
+                    color: white;
+                    text-decoration: none;
+                    transition: background 0.3s;
+                }
+
+                    .sidebar_menu li a:hover {
+                        background: #219150; /* darker green */
+                    }
+
+            .sidebar_menu .icon {
+                width: 30px;
+                text-align: center;
+            }
+
+        .main_container {
+            margin-left: 250px;
+            width: 100%;
+            background: #ffffff;
+            min-height: 100vh;
+        }
+
+        .navbar {
+            background: #2ecc71; /* lighter green top bar */
+            padding: 15px;
+            color: white;
+            display: flex;
+            align-items: center;
+        }
+
+            .navbar .logo a {
+                font-size: 20px;
+                color: white;
+                font-weight: bold;
+                text-decoration: none;
+            }
+
+        .logout_btn {
+            text-align: center;
+            padding: 20px;
+        }
+
+            .logout_btn a, .logout_btn asp\\:LinkButton {
+                background: #e74c3c;
+                color: white;
+                padding: 10px 20px;
+                border-radius: 8px;
+                text-decoration: none;
+                display: inline-block;
+                transition: background 0.3s;
+            }
+
+                .logout_btn a:hover {
+                    background: #c0392b;
+                }
+    </style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <div class="wrapper">
+                <!-- Sidebar -->
+                <div class="sidebar">
+                    <div class="bg_shadow"></div>
+                    <div class="sidebar_inner">
+                        <div class="close"><i class="fas fa-times"></i></div>
+
+                        <!-- Profile Info -->
+                        <div class="profile_info">
+                            <div class="profile_img">
+                                <%-- <img src="../img/fruit_logo.png" alt="Fruit Logo"> --%>
+                            </div>
+                            <div class="profile_data">
+                                <p class="name">Admin</p>
+                            </div>
+                        </div>
+
+                        <!-- Sidebar Menu -->
+                        <ul class="sidebar_menu">
+                            <li>
+                                <a href="Dashboard.aspx">
+                                    <div class="icon"><i class="fas fa-home"></i></div>
+                                    <div class="title">Dashboard</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="AddFruitType.aspx">
+                                    <div class="icon"><i class="fas fa-plus-circle"></i></div>
+                                    <div class="title">Add FruitType</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="AddProduct.aspx">
+                                    <div class="icon"><i class="fas fa-plus-circle"></i></div>
+                                    <div class="title">Add Product</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="ManageOrder.aspx">
+                                    <div class="icon"><i class="fas fa-plus-circle"></i></div>
+                                    <div class="title">Manage Order</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="Payment.aspx">
+                                    <div class="icon"><i class="fas fa-plus-circle"></i></div>
+                                    <div class="title">Payment</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="ContactList.aspx">
+                                    <div class="icon"><i class="fas fa-plus-circle"></i></div>
+                                    <div class="title">Contact</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="Report.aspx">
+                                    <div class="icon"><i class="fas fa-plus-circle"></i></div>
+                                    <div class="title">Report</div>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="AdminRegister.aspx">
+                                    <div class="icon"><i class="fas fa-user-plus"></i></div>
+                                    <div class="title">Registration</div>
+                                </a>
+                            </li>
+                        </ul>
+
+
+
+
+                        <!-- Logout -->
+                        <div class="logout_btn">
+                            <asp:LinkButton ID="btnLogOut" runat="server" OnClick="btnLogOut_Click">Logout</asp:LinkButton>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Main Content -->
+                <div class="main_container">
+                    <div class="navbar">
+                        <div class="hamburger"><i class="fas fa-bars"></i></div>
+                        <div class="logo">
+                            🍏 <a href="#">Online Fruit Registration</a>
+                        </div>
+                    </div>
+
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+    </form>
+</body>
+</html>
