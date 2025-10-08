@@ -102,46 +102,48 @@
                 color: #ff9f00; /* orange price */
                 margin: 0;
             }
-            
-    /* Common button style */
-    .btn-cart, .btn-view {
-        display: inline-block;
-        padding: 10px 18px;
-        font-size: 15px;
-        font-weight: bold;
-        border-radius: 8px;
-        border: none;
-        cursor: pointer;
-        text-decoration: none;
-        color: #fff;
-        transition: all 0.3s ease;
-        margin: 5px 3px 0 3px;
-        box-shadow: 0 4px 6px rgba(0,0,0,0.2);
-    }
 
-    /* Add to Cart button */
-    .btn-cart {
-        background: linear-gradient(45deg, #001f3f, #003366); /* Navy gradient */
-    }
-    .btn-cart:hover {
-        background: linear-gradient(45deg, #003366, #001f3f);
-        transform: translateY(-2px);
-        box-shadow: 0 6px 10px rgba(0,0,0,0.3);
-    }
+        /* Common button style */
+        .btn-cart, .btn-view {
+            display: inline-block;
+            padding: 10px 18px;
+            font-size: 15px;
+            font-weight: bold;
+            border-radius: 8px;
+            border: none;
+            cursor: pointer;
+            text-decoration: none;
+            color: #fff;
+            transition: all 0.3s ease;
+            margin: 5px 3px 0 3px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+        }
 
-    /* View Details button */
-    .btn-view {
-        background: linear-gradient(45deg, #0056b3, #0073e6); /* Blue gradient */
-    }
-    .btn-view:hover {
-        background: linear-gradient(45deg, #0073e6, #0056b3);
-        transform: translateY(-2px);
-        box-shadow: 0 6px 10px rgba(0,0,0,0.3);
-    }
+        /* Add to Cart button */
+        .btn-cart {
+            background: linear-gradient(45deg, #001f3f, #003366); /* Navy gradient */
+        }
+
+            .btn-cart:hover {
+                background: linear-gradient(45deg, #003366, #001f3f);
+                transform: translateY(-2px);
+                box-shadow: 0 6px 10px rgba(0,0,0,0.3);
+            }
+
+        /* View Details button */
+        .btn-view {
+            background: linear-gradient(45deg, #0056b3, #0073e6); /* Blue gradient */
+        }
+
+            .btn-view:hover {
+                background: linear-gradient(45deg, #0073e6, #0056b3);
+                transform: translateY(-2px);
+                box-shadow: 0 6px 10px rgba(0,0,0,0.3);
+            }
     </style>
 
 </asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
 
     <div class="heading">
         <h1>our shop</h1>
@@ -184,6 +186,11 @@
 
     </section>--%>
         <center>
+            <p>
+                <asp:Button ID="Button1" runat="server" Text="View Cart" OnClick="Button1_Click" />
+                <asp:Label ID="Label3" runat="server"></asp:Label>
+            </p>
+
             <section class="fruit_section layout_padding">
                 <div class="container">
                     <div class="heading_container heading_center">
@@ -194,7 +201,7 @@
                 <center>
                     <asp:DataList ID="DataList1" runat="server"
                         CellPadding="10" CellSpacing="50" RepeatDirection="Horizontal"
-                        RepeatColumns="3" CssClass="menu_items"  OnItemCommand="DataList1_ItemCommand1">
+                        RepeatColumns="3" CssClass="menu_items" OnItemCommand="DataList1_ItemCommand1">
                         <ItemTemplate>
                             <div class="box">
                                 <div class="img-box">
@@ -212,7 +219,7 @@
                                 <br />
                                 <!-- Add to Cart Button -->
                                 <asp:LinkButton ID="lnkCart" runat="server"
-                                    CommandName="AddToCart"
+                                    CommandName="cmd_add"
                                     CommandArgument='<%# Eval("Id") %>'
                                     CssClass="btn-cart">🛒 Add to Cart</asp:LinkButton>
                                 &nbsp;

@@ -5,6 +5,7 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Web;
+using System.Web.DynamicData;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
@@ -28,6 +29,22 @@ namespace OnlineFruitDelivery
             getcon();
             //fillcombo();
             filllist();
+            if (Session["User"] != null)
+            {
+                getcon();
+                ds = new DataSet();
+                da = new SqlDataAdapter("SELECT * FROM Registerf WHERE Email = '" + Session["User"] + "'", con);
+                 
+                da.Fill(ds);
+                int uid = Convert.ToInt16(ds.Tables[0].Rows[0][0]);
+                String s= ds.Tables[0].Rows[0][1].ToString();
+                Label3.Text = "Welcome:"+s;
+            }
+            else
+            {
+                Response.Redirect("Login.aspx");
+
+            }
 
         }
         void getcon()
@@ -84,6 +101,38 @@ namespace OnlineFruitDelivery
                 int id = Convert.ToInt32(e.CommandArgument);
                 Response.Redirect("ViewDetails.aspx?id=" + id);
             }
+            else if(e.CommandName=="cmd_add")
+            {
+                da = new SqlDataAdapter("SELECT * FROM Registerf WHERE Email = '" + Session["User"] + "'", con);
+                ds = new DataSet();
+                da.Fill(ds);
+
+                int userid = Convert.ToInt16(ds.Tables[0].Rows[0][0]);
+
+                int prodid = Convert.ToInt32(e.CommandArgument);
+
+                da = new SqlDataAdapter("SELECT * FROM add_pro WHERE Id = '" + prodid+ "'", con);
+                ds = new DataSet();
+                da.Fill(ds);
+
+
+                string prdnm = ds.Tables[0].Rows[0]["FruitName"].ToString();
+                decimal prdprc = Convert.ToDecimal(ds.Tables[0].Rows[0]["Price"]); 
+                string img = ds.Tables[0].Rows[0]["Image"].ToString();
+                int quantity = 1;
+
+                cmd = new SqlCommand("INSERT INTO cart_tbl (user_cart_id, prod_cart_id, FruitName, Price, Quantity, Image) " +
+                         "VALUES ('" + userid + "', '" + prodid + "', '" + prdnm + "', '" + prdprc + "', '" + quantity + "', '" + img + "')", con);
+
+                cmd.ExecuteNonQuery();
+
+            }
+        }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("ViewCart.aspx");
+
         }
 
         void filllist()

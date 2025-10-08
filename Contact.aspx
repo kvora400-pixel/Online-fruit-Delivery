@@ -47,7 +47,7 @@
         }
     </style>
 </asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
     <div class="heading">
         <h1>contact us</h1>
         <p><a href="home.html">home >></a> contact </p>

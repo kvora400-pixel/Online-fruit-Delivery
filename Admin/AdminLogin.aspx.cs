@@ -41,8 +41,9 @@ namespace OnlineFruitDelivery.Admin
 
                 if (i > 0)
                 {
-                    Session["User"] = txteml.Text;
+                    Session["Admin"] = txteml.Text;
                     Response.Redirect("Dashboard.aspx");
+
                 }
                 else
                 {

@@ -35,6 +35,8 @@
                 <!-- custom css file link  -->
                 <link rel="stylesheet" href="css/style.css">
             </head>
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server"></asp:ContentPlaceHolder>
+
             <body>
 
                 <!-- header section starts  -->
@@ -49,7 +51,6 @@
                         <a href="About.aspx">about</a>
                         <a href="Review.aspx">review</a>
                         <a href="Blog.aspx">blog</a>
-                        <a href="ViewDetails.aspx">View Detail</a>
                         <a href="Contact.aspx">contact</a>
                         <a href="Register.aspx">Register</a>
                         <a href="Login.aspx">Login</a>
@@ -116,8 +117,7 @@
                     </form>
 
                 </header>
-                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-                </asp:ContentPlaceHolder>
+                
                 <section class="footer">
 
                     <div class="box-container">

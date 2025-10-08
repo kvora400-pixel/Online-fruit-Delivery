@@ -81,7 +81,7 @@
         }
     </style>
 </asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
  
         <div class="dashboard-container">
             <div class="card">
@@ -97,13 +97,13 @@
             <div class="card">
                 <h3>Manage Users</h3>
                 <p>View, block, or manage user accounts.</p>
-                <a href="ManageUsers.aspx" style="color:#28a745; font-weight:bold;">Go →</a>
+                <a href="ManageUser.aspx" style="color:#28a745; font-weight:bold;">Go →</a>
             </div>
         </div>
 
     
         <div class="welcome">
-            <h3>Welcome, <%= Session["admin"] %> 👋</h3>
+            <h3>Welcome, <%= Session["Admin"] %> 👋</h3>
             <p>Use the cards above to manage your website efficiently.</p>
         </div>
 </asp:Content>

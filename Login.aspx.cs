@@ -44,7 +44,10 @@ namespace OnlineFruitDelivery
                 if (i > 0)
                 {
                     Session["User"] = txteml.Text;
-                    Response.Redirect("Index.aspx");
+                    //Response.Redirect("Index.aspx");
+                  Response.Redirect("Shop.aspx"); 
+
+
                 }
                 else
                 {

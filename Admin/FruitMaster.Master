@@ -148,9 +148,9 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="ManageOrder.aspx">
+                                <a href="ManageUser.aspx">
                                     <div class="icon"><i class="fas fa-plus-circle"></i></div>
-                                    <div class="title">Manage Order</div>
+                                    <div class="title">Manage User</div>
                                 </a>
                             </li>
                             <li>
@@ -199,7 +199,7 @@
                         </div>
                     </div>
 
-                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
                     </asp:ContentPlaceHolder>
                 </div>
     </form>

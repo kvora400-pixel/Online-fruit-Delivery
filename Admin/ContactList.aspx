@@ -49,7 +49,7 @@
     </style>
 
 </asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
       <center>
         <h2>Contact List</h2>
        <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False"  CssClass="gridview"   OnSelectedIndexChanged="GridView1_SelectedIndexChanged" Width="748px" OnRowCommand="GridView1_RowCommand" >
