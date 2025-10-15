@@ -140,6 +140,38 @@
                 transform: translateY(-2px);
                 box-shadow: 0 6px 10px rgba(0,0,0,0.3);
             }
+
+        .fruit-btn {
+            background: linear-gradient(45deg, #ff7b00, #ffbb33);
+            color: white;
+            border: none;
+            padding: 12px 28px;
+            border-radius: 30px;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 10px rgba(255, 150, 50, 0.4);
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+            .fruit-btn:hover {
+                background: linear-gradient(45deg, #ff9800, #ffcc66);
+                transform: scale(1.05);
+                box-shadow: 0 6px 15px rgba(255, 150, 50, 0.5);
+            }
+
+            .fruit-btn:active {
+                transform: scale(0.97);
+            }
+
+        .label-normal {
+            font-family: 'Segoe UI', sans-serif;
+            font-size: 18px;
+            color: #333;
+            font-weight: 500;
+            padding: 3px 5px;
+        }
     </style>
 
 </asp:Content>
@@ -187,8 +219,8 @@
     </section>--%>
         <center>
             <p>
-                <asp:Button ID="Button1" runat="server" Text="View Cart" OnClick="Button1_Click" />
-                <asp:Label ID="Label3" runat="server"></asp:Label>
+                <asp:Button ID="Button1" runat="server" Text="View Cart" CssClass="fruit-btn" OnClick="Button1_Click" />
+                <asp:Label ID="Label3" runat="server" CssClass="label-normal"></asp:Label>
             </p>
 
             <section class="fruit_section layout_padding">

@@ -20,6 +20,10 @@ namespace OnlineFruitDelivery
         String fnm;
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (!IsPostBack)
+            {
+                fill_grid();
+            }
             getcon();
         }
         void getcon()
@@ -27,6 +31,46 @@ namespace OnlineFruitDelivery
             con = new SqlConnection(s);
             con.Open();
         }
+
+        void fill_grid()
+        {
+            getcon();
+            da = new SqlDataAdapter("Select * from Registerf where Email ='" + Session["User"] + "'", con);
+            ds = new DataSet();
+            da.Fill(ds);
+
+            if (ds.Tables[0].Rows.Count > 0)
+            {
+                int uid = Convert.ToInt16(ds.Tables[0].Rows[0][0]);
+
+                //da = new SqlDataAdapter("SELECT prod_cart_id, FruitName, FruitPrice, Quantity, Image, (FruitPrice * Quantity) AS Total FROM cart_tbl WHERE user_cart_id = '" + uid + "'", con);
+
+                da = new SqlDataAdapter("SELECT *, (Price * Quantity) AS Total FROM cart_tbl WHERE user_cart_id = '" + uid + "'", con);
+                ds = new DataSet();
+                da.Fill(ds);
+                gvCart.DataSource = ds;
+                gvCart.DataBind();
+
+
+                decimal finalTotal = 0;
+                foreach (DataRow dr in ds.Tables[0].Rows)
+                {
+                    if (dr["Total"] != DBNull.Value)
+                        finalTotal += Convert.ToDecimal(dr["Total"]);
+
+                }
+                lblOrderTotal.Text = "Final Total: ₹" + finalTotal.ToString("0.00");
+
+            }
+            else
+            {
+                gvCart.DataSource = null;
+                gvCart.DataBind();
+                lblOrderTotal.Text = "Final Total = ₹0.00";
+            }
+        }
+    
+       
         protected void btnPlaceOrder_Click(object sender, EventArgs e)
         {
             getcon();
