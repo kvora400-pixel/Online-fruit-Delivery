@@ -3,12 +3,14 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f4fff4; /* light green background */
+            margin: 0;
+            font-family: "Segoe UI", Arial, sans-serif;
+            background: #0b1118; /* deep dark background */
+            color: black;
         }
 
         h2 {
-            color: #2e7d32; /* dark green */
+            color: #9ccc65; /* another light green */
         }
 
         table {
@@ -45,82 +47,84 @@
         center {
             margin-top: 50px;
         }
- 
+
         .fruitGreen {
-    width: 90%;                  /* grid size */
-    margin: 20px auto;            /* center grid */
-    border-collapse: collapse;
-    font-family: Arial, sans-serif;
-    font-size: 14px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.15);  /* outer box shadow */
-    border-radius: 8px;
-    overflow: hidden;             /* round corners apply properly */
-}
+            width: 90%; /* grid size */
+            margin: 20px auto; /* center grid */
+            border-collapse: collapse;
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.15); /* outer box shadow */
+            border-radius: 8px;
+            overflow: hidden; /* round corners apply properly */
+            color: black;
+        }
 
-/* Header */
-.fruitGreen th {
-    background: linear-gradient(90deg, #2e7d32, #43a047); /* stylish green */
-    color: #fff;
-    padding: 12px;
-    text-align: center;
-    border: 1px solid #1b5e20;
-    font-weight: bold;
-    text-transform: uppercase;
-}
+            /* Header */
+            .fruitGreen th {
+                background: linear-gradient(90deg, #2e7d32, #43a047); /* stylish green */
+                color: #fff;
+                padding: 12px;
+                text-align: center;
+                border: 1px solid #1b5e20;
+                font-weight: bold;
+                text-transform: uppercase;
+            }
 
-/* Cells */
-.fruitGreen td {
-    border: 1px solid #c8e6c9;
-    padding: 10px;
-    text-align: center;
-    background-color: #ffffff;
-}
+            /* Cells */
+            .fruitGreen td {
+                border: 1px solid #c8e6c9;
+                padding: 10px;
+                text-align: center;
+                background-color: #ffffff;
+            }
 
-/* Alternate rows */
-.fruitGreen tr:nth-child(even) td {
-    background-color: #f1f8f4;
-}
+            /* Alternate rows */
+            .fruitGreen tr:nth-child(even) td {
+                background-color: #f1f8f4;
+            }
 
-/* Hover row */
-.fruitGreen tr:hover td {
-    background-color: #dcedc8;
-    transition: 0.3s;
-}
+            /* Hover row */
+            .fruitGreen tr:hover td {
+                background-color: #dcedc8;
+                transition: 0.3s;
+            }
 
-/* Edit Button */
-.fruitGreen .LinkButtonEdit {
-    display: inline-block;
-    background: #e8f5e9;
-    color: #2e7d32;
-    font-weight: bold;
-    padding: 5px 12px;
-    border: 1px solid #2e7d32;
-    border-radius: 5px;
-    text-decoration: none;
-    cursor: pointer;
-}
-.fruitGreen .LinkButtonEdit:hover {
-    background: #2e7d32;
-    color: white;
-}
+            /* Edit Button */
+            .fruitGreen .LinkButtonEdit {
+                display: inline-block;
+                background: #e8f5e9;
+                color: #2e7d32;
+                font-weight: bold;
+                padding: 5px 12px;
+                border: 1px solid #2e7d32;
+                border-radius: 5px;
+                text-decoration: none;
+                cursor: pointer;
+            }
 
-/* Delete Button */
-.fruitGreen .LinkButtonDelete {
-    display: inline-block;
-    background: #ffebee;
-    color: #c62828;
-    font-weight: bold;
-    padding: 5px 12px;
-    border: 1px solid #c62828;
-    border-radius: 5px;
-    text-decoration: none;
-    cursor: pointer;
-}
-.fruitGreen .LinkButtonDelete:hover {
-    background: #c62828;
-    color: white;
-}
+                .fruitGreen .LinkButtonEdit:hover {
+                    background: #2e7d32;
+                    color: black;
+                }
 
+            /* Delete Button */
+            .fruitGreen .LinkButtonDelete {
+                display: inline-block;
+                background: #ffebee;
+                color: #c62828;
+                font-weight: bold;
+                padding: 5px 12px;
+                border: 1px solid #c62828;
+                border-radius: 5px;
+                text-decoration: none;
+                cursor: pointer;
+            }
+
+                .fruitGreen .LinkButtonDelete:hover {
+                    background: #c62828;
+                    color: white;
+                }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
@@ -140,7 +144,7 @@
         </table>
         <br />
         <br />
-        <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False"  CssClass="fruitGreen" OnRowCommand="GridView1_RowCommand">
+        <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" CssClass="fruitGreen" OnRowCommand="GridView1_RowCommand">
             <Columns>
                 <asp:TemplateField HeaderText="Id">
                     <ItemTemplate>

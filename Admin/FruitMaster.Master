@@ -6,103 +6,136 @@
 <head runat="server">
     <title></title>
     <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background: #f4fff4; /* light green background */
-        }
+       body {
+    margin: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #0b1118; /* deep dark background */
+    color: #e0e6e3;
+}
 
-        .wrapper {
-            display: flex;
-        }
-        /* Sidebar */
-        .sidebar {
-            width: 250px;
-            background: #27ae60; /* parrot green */
-            min-height: 100vh;
-            color: white;
-            position: fixed;
-        }
+.wrapper {
+    display: flex;
+}
 
-            .sidebar .profile_info {
-                text-align: center;
-                padding: 20px;
-                border-bottom: 1px solid rgba(255,255,255,0.3);
-            }
+/* Sidebar */
+.sidebar {
+    width: 250px;
+    background: linear-gradient(180deg, #1b4332, #081c15); /* rich dark green gradient */
+    min-height: 100vh;
+    color: #f1fff6;
+    position: fixed;
+    box-shadow: 2px 0 8px rgba(0, 0, 0, 0.5);
+}
 
-                .sidebar .profile_info .name {
-                    font-weight: bold;
-                    color: #f1fdf1;
-                }
+.sidebar .profile_info {
+    text-align: center;
+    padding: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
 
-        .sidebar_menu {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-        }
+.sidebar .profile_info .name {
+    font-weight: bold;
+    color: #95f985; /* light green highlight */
+}
 
-            .sidebar_menu li {
-                border-bottom: 1px solid rgba(255,255,255,0.1);
-            }
+.sidebar_menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
 
-                .sidebar_menu li a {
-                    display: flex;
-                    align-items: center;
-                    padding: 15px;
-                    color: white;
-                    text-decoration: none;
-                    transition: background 0.3s;
-                }
+.sidebar_menu li {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
 
-                    .sidebar_menu li a:hover {
-                        background: #219150; /* darker green */
-                    }
+.sidebar_menu li a {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    color: #c8e6c9;
+    text-decoration: none;
+    transition: background 0.3s, color 0.3s;
+}
 
-            .sidebar_menu .icon {
-                width: 30px;
-                text-align: center;
-            }
+.sidebar_menu li a:hover {
+    background: #2d6a4f;
+    color: #ffffff;
+}
 
-        .main_container {
-            margin-left: 250px;
-            width: 100%;
-            background: #ffffff;
-            min-height: 100vh;
-        }
+.sidebar_menu .icon {
+    width: 30px;
+    text-align: center;
+    color: #95f985;
+}
 
-        .navbar {
-            background: #2ecc71; /* lighter green top bar */
-            padding: 15px;
-            color: white;
-            display: flex;
-            align-items: center;
-        }
+/* Main container */
+.main_container {
+    margin-left: 250px;
+    width: 100%;
+    background: #141a1f; /* dark navy background */
+    min-height: 100vh;
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.4);
+}
 
-            .navbar .logo a {
-                font-size: 20px;
-                color: white;
-                font-weight: bold;
-                text-decoration: none;
-            }
+/* Navbar */
+.navbar {
+    background: linear-gradient(90deg, #2d6a4f, #1b4332);
+    padding: 15px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+}
 
-        .logout_btn {
-            text-align: center;
-            padding: 20px;
-        }
+.navbar .logo a {
+    font-size: 20px;
+    color: #b9fbc0;
+    font-weight: bold;
+    text-decoration: none;
+}
 
-            .logout_btn a, .logout_btn asp\\:LinkButton {
-                background: #e74c3c;
-                color: white;
-                padding: 10px 20px;
-                border-radius: 8px;
-                text-decoration: none;
-                display: inline-block;
-                transition: background 0.3s;
-            }
+.navbar .logo a:hover {
+    color: #95f985;
+}
 
-                .logout_btn a:hover {
-                    background: #c0392b;
-                }
+/* Logout Button */
+.logout_btn {
+    text-align: center;
+    padding: 25px;
+}
+
+.logout_btn a,
+.logout_btn asp\:LinkButton {
+    background: #e63946;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.logout_btn a:hover {
+    background: #ba1c2f;
+    transform: scale(1.05);
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #1b4332;
+    border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #2d6a4f;
+}
+
     </style>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
@@ -154,9 +187,9 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="Payment.aspx">
+                                <a href="ManageOrder.aspx">
                                     <div class="icon"><i class="fas fa-plus-circle"></i></div>
-                                    <div class="title">Payment</div>
+                                    <div class="title">Manage Order</div>
                                 </a>
                             </li>
                             <li>
@@ -165,7 +198,7 @@
                                     <div class="title">Contact</div>
                                 </a>
                             </li>
-                            <li>
+                           <%-- <li>
                                 <a href="Report.aspx">
                                     <div class="icon"><i class="fas fa-plus-circle"></i></div>
                                     <div class="title">Report</div>
@@ -177,7 +210,7 @@
                                     <div class="icon"><i class="fas fa-user-plus"></i></div>
                                     <div class="title">Registration</div>
                                 </a>
-                            </li>
+                            </li>--%>
                         </ul>
 
 

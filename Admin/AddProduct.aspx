@@ -24,13 +24,25 @@
         .form-group {
             margin-bottom: 15px;
         }
+        .form-group label {
+    font-weight: bold;       /* makes the text bold */
+    color: #333;             /* dark gray for better visibility */
+    font-size: 16px;         /* bigger font so it's readable */
+    display: block;          /* ensures each label is on a new line */
+    margin-bottom: 5px;      /* spacing between label and input */
+}
+
 
         label {
             font-weight: bold;
             display: block;
             margin-bottom: 5px;
         }
-
+        asp\:Label {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #333;
+}
         input[type=text], input[type=number], input[type=file], select, asp\:TextBox, asp\:DropDownList, asp\:FileUpload {
             width: 100%;
             padding: 8px;

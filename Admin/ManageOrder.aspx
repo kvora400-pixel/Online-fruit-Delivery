@@ -1,6 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Admin/FruitMaster.Master" AutoEventWireup="true" CodeBehind="ManageOrder.aspx.cs" Inherits="OnlineFruitDelivery.Admin.ManageOrder" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-     <style>
+    <style>
         .order-grid {
             width: 90%;
             margin: 20px auto;
@@ -8,28 +9,29 @@
             text-align: center;
         }
 
-        .order-grid th {
-            background-color: #4CAF50;
-            color: white;
-            padding: 10px;
-        }
+            .order-grid th {
+                background-color: #27ae60; /* dark green */
+                color: white;
+                padding: 10px;
+            }
 
-        .order-grid td {
-            padding: 8px;
-            border-bottom: 1px solid #ddd;
-        }
+            .order-grid td {
+                padding: 8px;
+                border-bottom: 1px solid #ddd;
+            }
 
-        .order-grid tr:hover {
-            background-color: #f2f2f2;
-        }
+            .order-grid tr:hover {
+                background-color: #f2f2f2;
+            }
 
-        .order-grid a {
-            text-decoration: none;
-            color: #007bff;
-        }
-        .order-grid a:hover {
-            color: #0056b3;
-        }
+            .order-grid a {
+                text-decoration: none;
+                color: #007bff;
+            }
+
+                .order-grid a:hover {
+                    color: #0056b3;
+                }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
@@ -37,7 +39,7 @@
         <h2>Manage Orders</h2>
 
         <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False"
-            OnRowCommand="GridView1_RowCommand" CssClass="order-grid">
+            CssClass="order-grid">
             <Columns>
 
                 <asp:TemplateField HeaderText="Order ID">
@@ -81,22 +83,6 @@
                         <asp:Label ID="lblPayment" runat="server" Text='<%# Eval("Payment_Method") %>'></asp:Label>
                     </ItemTemplate>
                 </asp:TemplateField>
-
-                <asp:TemplateField HeaderText="Edit">
-                    <ItemTemplate>
-                        <asp:LinkButton ID="btnEdit" runat="server" CommandArgument='<%# Eval("order_id") %>' CommandName="cmd_edit">Edit</asp:LinkButton>
-                    </ItemTemplate>
-                </asp:TemplateField>
-
-                <asp:TemplateField HeaderText="Delete">
-                    <ItemTemplate>
-                        <asp:LinkButton ID="btnDelete" runat="server" CommandArgument='<%# Eval("order_id") %>'
-                            CommandName="cmd_delete" OnClientClick="return confirm('Are you sure you want to delete this order?');">
-                            Delete
-                        </asp:LinkButton>
-                    </ItemTemplate>
-                </asp:TemplateField>
-
             </Columns>
         </asp:GridView>
     </center>

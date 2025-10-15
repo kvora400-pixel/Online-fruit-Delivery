@@ -75,11 +75,16 @@
             }
 
 
-        .welcome {
+       /* .welcome {
             text-align: center;
             margin-top: 20px;
             color: #555;
-        }
+        }*/
+        .welcome {
+    text-align: center;
+    margin-top: 20px;
+    color: #ffffff; /* white text for dark background */
+}
 
         .summary-section {
             text-align: center;
@@ -103,18 +108,18 @@
             .summary-box span {
                 font-size: 22px;
                 font-weight: bold;
-                color: #333;
+                color: white;
             }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
 
     <div class="dashboard-container">
-        <div class="card">
+        <%--<div class="card">
             <h3>Manage Fruits</h3>
             <p>Add, update, or delete fruit items.</p>
             <a href="ManageFruits.aspx" style="color: #28a745; font-weight: bold;">Go →</a>
-        </div>
+        </div>--%>
         <div class="card">
             <h3>Manage Orders</h3>
             <p>View and update customer orders.</p>
