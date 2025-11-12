@@ -46,7 +46,7 @@
 
 </section>
 
-<section class="banner-container">
+<%--<section class="banner-container">
 
     <div class="banner">
         <img src="image/banner-1.jpg" alt="">
@@ -75,6 +75,6 @@
         </div>
     </div>
 
-</section>
+</section>--%>
 
 </asp:Content>

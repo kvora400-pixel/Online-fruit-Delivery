@@ -177,7 +177,7 @@
                             <li>
                                 <a href="AddProduct.aspx">
                                     <div class="icon"><i class="fas fa-plus-circle"></i></div>
-                                    <div class="title">Add Product</div>
+                                    <div class="title">Manage Fruits</div>
                                 </a>
                             </li>
                             <li>
