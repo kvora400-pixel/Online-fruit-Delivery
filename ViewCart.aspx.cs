@@ -116,5 +116,17 @@ namespace OnlineFruitDelivery
         {
             Response.Redirect("checkout.aspx");
         }
+
+        protected void gvCart_RowCommand(object sender, GridViewCommandEventArgs e)
+        {
+            if (e.CommandName == "Remove")
+            {
+                int id = Convert.ToInt32(e.CommandArgument);
+                getcon();
+                cmd = new SqlCommand("DELETE FROM cart_tbl WHERE prod_cart_id='" + id + "'", con);
+                cmd.ExecuteNonQuery();
+                fill_grid();
+            }
+        }
     }
 }

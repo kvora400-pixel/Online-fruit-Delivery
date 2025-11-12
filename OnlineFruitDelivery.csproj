@@ -81,7 +81,6 @@
     <Content Include="App_Data\onlinefruit_log.ldf">
       <DependentUpon>onlinefruit.mdf</DependentUpon>
     </Content>
-    <Content Include="Blog.aspx" />
     <Content Include="Checkout.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="css\style.css" />
@@ -136,7 +135,6 @@
     <Content Include="js\script.js" />
     <Content Include="Login.aspx" />
     <Content Include="Register.aspx" />
-    <Content Include="Review.aspx" />
     <Content Include="Shop.aspx" />
     <Content Include="ViewCart.aspx" />
     <Content Include="ViewDetails.aspx" />
@@ -213,13 +211,6 @@
     <Compile Include="Admin\ManageUser.aspx.designer.cs">
       <DependentUpon>ManageUser.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Blog.aspx.cs">
-      <DependentUpon>Blog.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Blog.aspx.designer.cs">
-      <DependentUpon>Blog.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Checkout.aspx.cs">
       <DependentUpon>Checkout.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -255,13 +246,6 @@
     </Compile>
     <Compile Include="Register.aspx.designer.cs">
       <DependentUpon>Register.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Review.aspx.cs">
-      <DependentUpon>Review.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Review.aspx.designer.cs">
-      <DependentUpon>Review.aspx</DependentUpon>
     </Compile>
     <Compile Include="Shop.aspx.cs">
       <DependentUpon>Shop.aspx</DependentUpon>

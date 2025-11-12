@@ -243,7 +243,7 @@
                                 <div class="detail-box">
                                     <h5><%# Eval("FruitName") %></h5>
                                     <p>Category: <%# Eval("Category") %></p>
-                                    <p>Quantity: <%# Eval("Quantity") %></p>
+                                    <p>Quantity: <%# Eval("Quantity") %> kg</p>
                                     <div class="options">
                                         <h6>₹ <%# Eval("Price") %></h6>
                                     </div>

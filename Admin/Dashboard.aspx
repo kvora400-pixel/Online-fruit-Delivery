@@ -108,7 +108,7 @@
             .summary-box span {
                 font-size: 22px;
                 font-weight: bold;
-                color: white;
+                color: black;
             }
     </style>
 </asp:Content>

@@ -91,7 +91,7 @@
         <div>
             <h3>Your Cart</h3>
             <br />
-            <asp:GridView ID="gvCart" runat="server" AutoGenerateColumns="False" CssClass="fruit-grid" DataKeyNames="prod_cart_id">
+            <asp:GridView ID="gvCart" runat="server" AutoGenerateColumns="False" CssClass="fruit-grid" DataKeyNames="prod_cart_id" OnRowCommand="gvCart_RowCommand">
                 <Columns>
                     <asp:TemplateField HeaderText="FruitName">
                         <ItemTemplate>

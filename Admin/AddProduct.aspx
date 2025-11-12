@@ -226,11 +226,11 @@
                     <asp:Label ID="Label4" runat="server" Text='<%# Eval("Price") %>'></asp:Label>
                 </ItemTemplate>
             </asp:TemplateField>
-            <asp:TemplateField HeaderText="Quantity">
-                <ItemTemplate>
-                    <asp:Label ID="Label5" runat="server" Text='<%# Eval("Quantity") %>'></asp:Label>
-                </ItemTemplate>
-            </asp:TemplateField>
+           <asp:TemplateField HeaderText="Quantity (kg)">
+    <ItemTemplate>
+        <asp:Label ID="Label5" runat="server" Text='<%# Eval("Quantity") + " kg" %>'></asp:Label>
+    </ItemTemplate>
+</asp:TemplateField>
             <asp:TemplateField HeaderText="Image">
                 <ItemTemplate>
                     <asp:Image ID="Image1" runat="server" ImageUrl='<%# Eval("Image") %>' />

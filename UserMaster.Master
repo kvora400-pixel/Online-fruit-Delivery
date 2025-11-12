@@ -49,21 +49,21 @@
                         <a href="Index.aspx">home</a>
                         <a href="Shop.aspx">shop</a>
                         <a href="About.aspx">about</a>
-                        <a href="Review.aspx">review</a>
-                        <a href="Blog.aspx">blog</a>
+                        <a href="ViewCart.aspx">ViewCart</a>
+                        <a href="Checkout.aspx">Checkout</a>
                         <a href="Contact.aspx">contact</a>
                         <a href="Register.aspx">Register</a>
                         <a href="Login.aspx">Login</a>
                         <a href="/Admin/AdminLogin.aspx" class="btn-getstarted">Admin</a>
                     </nav>
-                    <div class="icons">
+                   <%-- <div class="icons">
                         <div id="menu-btn" class="fas fa-bars"></div>
                         <div id="search-btn" class="fas fa-search"></div>
                         <div id="cart-btn" class="fas fa-shopping-cart"></div>
                         <div id="login-btn" class="fas fa-user"></div>
-                    </div>
+                    </div>--%>
 
-                    <form action="" class="search-form">
+                 <%--   <form action="" class="search-form">
                         <input type="search" placeholder="search here..." id="search-box">
                         <label for="search-box" class="fas fa-search"></label>
                     </form>
@@ -114,7 +114,7 @@
                         <input type="submit" value="login now" class="btn">
                         <p>forget password? <a href="#">click here</a></p>
                         <p>don't have an account? <a href="#">create one</a></p>
-                    </form>
+                    </form>--%>
 
                 </header>
                 

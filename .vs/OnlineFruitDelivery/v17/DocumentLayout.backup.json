@@ -3,76 +3,88 @@
   "WorkspaceRootPath": "C:\\Users\\lenovo\\source\\repos\\OnlineFruitDelivery\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{97678AC8-03A8-4E90-A3AA-E564A6B6E09A}|OnlineFruitDelivery.csproj|C:\\Users\\lenovo\\source\\repos\\OnlineFruitDelivery\\admin\\dashboard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{97678AC8-03A8-4E90-A3AA-E564A6B6E09A}|OnlineFruitDelivery.csproj|solutionrelative:admin\\dashboard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97678AC8-03A8-4E90-A3AA-E564A6B6E09A}|OnlineFruitDelivery.csproj|C:\\Users\\lenovo\\source\\repos\\OnlineFruitDelivery\\admin\\dashboard.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97678AC8-03A8-4E90-A3AA-E564A6B6E09A}|OnlineFruitDelivery.csproj|solutionrelative:admin\\dashboard.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97678AC8-03A8-4E90-A3AA-E564A6B6E09A}|OnlineFruitDelivery.csproj|C:\\Users\\lenovo\\source\\repos\\OnlineFruitDelivery\\admin\\addfruittype.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{97678AC8-03A8-4E90-A3AA-E564A6B6E09A}|OnlineFruitDelivery.csproj|solutionrelative:admin\\addfruittype.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97678AC8-03A8-4E90-A3AA-E564A6B6E09A}|OnlineFruitDelivery.csproj|c:\\users\\lenovo\\source\\repos\\onlinefruitdelivery\\admin\\contactlist.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{97678AC8-03A8-4E90-A3AA-E564A6B6E09A}|OnlineFruitDelivery.csproj|solutionrelative:admin\\contactlist.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97678AC8-03A8-4E90-A3AA-E564A6B6E09A}|OnlineFruitDelivery.csproj|C:\\Users\\lenovo\\source\\repos\\OnlineFruitDelivery\\admin\\manageorder.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{97678AC8-03A8-4E90-A3AA-E564A6B6E09A}|OnlineFruitDelivery.csproj|solutionrelative:admin\\manageorder.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97678AC8-03A8-4E90-A3AA-E564A6B6E09A}|OnlineFruitDelivery.csproj|C:\\Users\\lenovo\\source\\repos\\OnlineFruitDelivery\\admin\\manageuser.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{97678AC8-03A8-4E90-A3AA-E564A6B6E09A}|OnlineFruitDelivery.csproj|solutionrelative:admin\\manageuser.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97678AC8-03A8-4E90-A3AA-E564A6B6E09A}|OnlineFruitDelivery.csproj|c:\\users\\lenovo\\source\\repos\\onlinefruitdelivery\\admin\\manageuser.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97678AC8-03A8-4E90-A3AA-E564A6B6E09A}|OnlineFruitDelivery.csproj|solutionrelative:admin\\manageuser.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97678AC8-03A8-4E90-A3AA-E564A6B6E09A}|OnlineFruitDelivery.csproj|C:\\Users\\lenovo\\source\\repos\\OnlineFruitDelivery\\admin\\manageorder.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97678AC8-03A8-4E90-A3AA-E564A6B6E09A}|OnlineFruitDelivery.csproj|solutionrelative:admin\\manageorder.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97678AC8-03A8-4E90-A3AA-E564A6B6E09A}|OnlineFruitDelivery.csproj|C:\\Users\\lenovo\\source\\repos\\OnlineFruitDelivery\\admin\\addproduct.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97678AC8-03A8-4E90-A3AA-E564A6B6E09A}|OnlineFruitDelivery.csproj|solutionrelative:admin\\addproduct.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{97678AC8-03A8-4E90-A3AA-E564A6B6E09A}|OnlineFruitDelivery.csproj|C:\\Users\\lenovo\\source\\repos\\OnlineFruitDelivery\\shop.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{97678AC8-03A8-4E90-A3AA-E564A6B6E09A}|OnlineFruitDelivery.csproj|solutionrelative:shop.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{97678AC8-03A8-4E90-A3AA-E564A6B6E09A}|OnlineFruitDelivery.csproj|C:\\Users\\lenovo\\source\\repos\\OnlineFruitDelivery\\admin\\addproduct.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{97678AC8-03A8-4E90-A3AA-E564A6B6E09A}|OnlineFruitDelivery.csproj|solutionrelative:admin\\addproduct.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97678AC8-03A8-4E90-A3AA-E564A6B6E09A}|OnlineFruitDelivery.csproj|C:\\Users\\lenovo\\source\\repos\\OnlineFruitDelivery\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97678AC8-03A8-4E90-A3AA-E564A6B6E09A}|OnlineFruitDelivery.csproj|solutionrelative:login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{97678AC8-03A8-4E90-A3AA-E564A6B6E09A}|OnlineFruitDelivery.csproj|C:\\Users\\lenovo\\source\\repos\\OnlineFruitDelivery\\admin\\manageorder.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{97678AC8-03A8-4E90-A3AA-E564A6B6E09A}|OnlineFruitDelivery.csproj|solutionrelative:admin\\manageorder.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97678AC8-03A8-4E90-A3AA-E564A6B6E09A}|OnlineFruitDelivery.csproj|C:\\Users\\lenovo\\source\\repos\\OnlineFruitDelivery\\viewcart.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97678AC8-03A8-4E90-A3AA-E564A6B6E09A}|OnlineFruitDelivery.csproj|solutionrelative:viewcart.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{97678AC8-03A8-4E90-A3AA-E564A6B6E09A}|OnlineFruitDelivery.csproj|C:\\Users\\lenovo\\source\\repos\\OnlineFruitDelivery\\admin\\addfruittype.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{97678AC8-03A8-4E90-A3AA-E564A6B6E09A}|OnlineFruitDelivery.csproj|solutionrelative:admin\\addfruittype.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97678AC8-03A8-4E90-A3AA-E564A6B6E09A}|OnlineFruitDelivery.csproj|c:\\users\\lenovo\\source\\repos\\onlinefruitdelivery\\admin\\fruitmaster.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
-      "RelativeMoniker": "D:0:0:{97678AC8-03A8-4E90-A3AA-E564A6B6E09A}|OnlineFruitDelivery.csproj|solutionrelative:admin\\fruitmaster.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97678AC8-03A8-4E90-A3AA-E564A6B6E09A}|OnlineFruitDelivery.csproj|C:\\Users\\lenovo\\source\\repos\\OnlineFruitDelivery\\register.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97678AC8-03A8-4E90-A3AA-E564A6B6E09A}|OnlineFruitDelivery.csproj|solutionrelative:register.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{97678AC8-03A8-4E90-A3AA-E564A6B6E09A}|OnlineFruitDelivery.csproj|C:\\Users\\lenovo\\source\\repos\\OnlineFruitDelivery\\viewcart.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{97678AC8-03A8-4E90-A3AA-E564A6B6E09A}|OnlineFruitDelivery.csproj|solutionrelative:viewcart.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97678AC8-03A8-4E90-A3AA-E564A6B6E09A}|OnlineFruitDelivery.csproj|C:\\Users\\lenovo\\source\\repos\\OnlineFruitDelivery\\checkout.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97678AC8-03A8-4E90-A3AA-E564A6B6E09A}|OnlineFruitDelivery.csproj|solutionrelative:checkout.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{97678AC8-03A8-4E90-A3AA-E564A6B6E09A}|OnlineFruitDelivery.csproj|C:\\Users\\lenovo\\source\\repos\\OnlineFruitDelivery\\checkout.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{97678AC8-03A8-4E90-A3AA-E564A6B6E09A}|OnlineFruitDelivery.csproj|solutionrelative:checkout.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97678AC8-03A8-4E90-A3AA-E564A6B6E09A}|OnlineFruitDelivery.csproj|C:\\Users\\lenovo\\source\\repos\\OnlineFruitDelivery\\viewcart.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97678AC8-03A8-4E90-A3AA-E564A6B6E09A}|OnlineFruitDelivery.csproj|solutionrelative:viewcart.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{97678AC8-03A8-4E90-A3AA-E564A6B6E09A}|OnlineFruitDelivery.csproj|C:\\Users\\lenovo\\source\\repos\\OnlineFruitDelivery\\admin\\fruitmaster.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{97678AC8-03A8-4E90-A3AA-E564A6B6E09A}|OnlineFruitDelivery.csproj|solutionrelative:admin\\fruitmaster.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97678AC8-03A8-4E90-A3AA-E564A6B6E09A}|OnlineFruitDelivery.csproj|c:\\users\\lenovo\\source\\repos\\onlinefruitdelivery\\usermaster.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{97678AC8-03A8-4E90-A3AA-E564A6B6E09A}|OnlineFruitDelivery.csproj|solutionrelative:usermaster.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97678AC8-03A8-4E90-A3AA-E564A6B6E09A}|OnlineFruitDelivery.csproj|C:\\Users\\lenovo\\source\\repos\\OnlineFruitDelivery\\index.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{97678AC8-03A8-4E90-A3AA-E564A6B6E09A}|OnlineFruitDelivery.csproj|solutionrelative:index.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97678AC8-03A8-4E90-A3AA-E564A6B6E09A}|OnlineFruitDelivery.csproj|c:\\users\\lenovo\\source\\repos\\onlinefruitdelivery\\admin\\manageorder.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97678AC8-03A8-4E90-A3AA-E564A6B6E09A}|OnlineFruitDelivery.csproj|solutionrelative:admin\\manageorder.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97678AC8-03A8-4E90-A3AA-E564A6B6E09A}|OnlineFruitDelivery.csproj|C:\\Users\\lenovo\\source\\repos\\OnlineFruitDelivery\\admin\\manageuser.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97678AC8-03A8-4E90-A3AA-E564A6B6E09A}|OnlineFruitDelivery.csproj|solutionrelative:admin\\manageuser.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97678AC8-03A8-4E90-A3AA-E564A6B6E09A}|OnlineFruitDelivery.csproj|C:\\Users\\lenovo\\source\\repos\\OnlineFruitDelivery\\admin\\manageuser.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{97678AC8-03A8-4E90-A3AA-E564A6B6E09A}|OnlineFruitDelivery.csproj|solutionrelative:admin\\manageuser.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97678AC8-03A8-4E90-A3AA-E564A6B6E09A}|OnlineFruitDelivery.csproj|C:\\Users\\lenovo\\source\\repos\\OnlineFruitDelivery\\admin\\dashboard.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97678AC8-03A8-4E90-A3AA-E564A6B6E09A}|OnlineFruitDelivery.csproj|solutionrelative:admin\\dashboard.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97678AC8-03A8-4E90-A3AA-E564A6B6E09A}|OnlineFruitDelivery.csproj|C:\\Users\\lenovo\\source\\repos\\OnlineFruitDelivery\\admin\\dashboard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{97678AC8-03A8-4E90-A3AA-E564A6B6E09A}|OnlineFruitDelivery.csproj|solutionrelative:admin\\dashboard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97678AC8-03A8-4E90-A3AA-E564A6B6E09A}|OnlineFruitDelivery.csproj|C:\\Users\\lenovo\\source\\repos\\OnlineFruitDelivery\\checkout.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97678AC8-03A8-4E90-A3AA-E564A6B6E09A}|OnlineFruitDelivery.csproj|solutionrelative:checkout.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97678AC8-03A8-4E90-A3AA-E564A6B6E09A}|OnlineFruitDelivery.csproj|C:\\Users\\lenovo\\source\\repos\\OnlineFruitDelivery\\admin\\addfruittype.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{97678AC8-03A8-4E90-A3AA-E564A6B6E09A}|OnlineFruitDelivery.csproj|solutionrelative:admin\\addfruittype.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97678AC8-03A8-4E90-A3AA-E564A6B6E09A}|OnlineFruitDelivery.csproj|C:\\Users\\lenovo\\source\\repos\\OnlineFruitDelivery\\admin\\contactlist.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{97678AC8-03A8-4E90-A3AA-E564A6B6E09A}|OnlineFruitDelivery.csproj|solutionrelative:admin\\contactlist.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97678AC8-03A8-4E90-A3AA-E564A6B6E09A}|OnlineFruitDelivery.csproj|C:\\Users\\lenovo\\source\\repos\\OnlineFruitDelivery\\admin\\addproduct.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97678AC8-03A8-4E90-A3AA-E564A6B6E09A}|OnlineFruitDelivery.csproj|solutionrelative:admin\\addproduct.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97678AC8-03A8-4E90-A3AA-E564A6B6E09A}|OnlineFruitDelivery.csproj|C:\\Users\\lenovo\\source\\repos\\OnlineFruitDelivery\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97678AC8-03A8-4E90-A3AA-E564A6B6E09A}|OnlineFruitDelivery.csproj|solutionrelative:login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97678AC8-03A8-4E90-A3AA-E564A6B6E09A}|OnlineFruitDelivery.csproj|C:\\Users\\lenovo\\source\\repos\\OnlineFruitDelivery\\register.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97678AC8-03A8-4E90-A3AA-E564A6B6E09A}|OnlineFruitDelivery.csproj|solutionrelative:register.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{97678AC8-03A8-4E90-A3AA-E564A6B6E09A}|OnlineFruitDelivery.csproj|C:\\Users\\lenovo\\source\\repos\\OnlineFruitDelivery\\shop.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -89,14 +101,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{97678AC8-03A8-4E90-A3AA-E564A6B6E09A}|OnlineFruitDelivery.csproj|C:\\Users\\lenovo\\source\\repos\\OnlineFruitDelivery\\admin\\adminlogin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{97678AC8-03A8-4E90-A3AA-E564A6B6E09A}|OnlineFruitDelivery.csproj|solutionrelative:admin\\adminlogin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97678AC8-03A8-4E90-A3AA-E564A6B6E09A}|OnlineFruitDelivery.csproj|C:\\Users\\lenovo\\source\\repos\\OnlineFruitDelivery\\shop.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{97678AC8-03A8-4E90-A3AA-E564A6B6E09A}|OnlineFruitDelivery.csproj|solutionrelative:shop.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97678AC8-03A8-4E90-A3AA-E564A6B6E09A}|OnlineFruitDelivery.csproj|C:\\Users\\lenovo\\source\\repos\\OnlineFruitDelivery\\index.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{97678AC8-03A8-4E90-A3AA-E564A6B6E09A}|OnlineFruitDelivery.csproj|solutionrelative:index.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{97678AC8-03A8-4E90-A3AA-E564A6B6E09A}|OnlineFruitDelivery.csproj|C:\\Users\\lenovo\\source\\repos\\OnlineFruitDelivery\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
@@ -118,7 +122,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 392,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 26,
           "Children": [
             {
               "$type": "Bookmark",
@@ -126,59 +130,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ContactList.aspx",
-              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\OnlineFruitDelivery\\Admin\\ContactList.aspx",
-              "RelativeDocumentMoniker": "Admin\\ContactList.aspx",
-              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\OnlineFruitDelivery\\Admin\\ContactList.aspx",
-              "RelativeToolTip": "Admin\\ContactList.aspx",
+              "DocumentIndex": 8,
+              "Title": "UserMaster.Master",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\OnlineFruitDelivery\\UserMaster.Master",
+              "RelativeDocumentMoniker": "UserMaster.Master",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\OnlineFruitDelivery\\UserMaster.Master",
+              "RelativeToolTip": "UserMaster.Master",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-10-15T16:45:53.386Z",
+              "WhenOpened": "2025-11-12T10:00:55.401Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "FruitMaster.Master",
-              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\OnlineFruitDelivery\\Admin\\FruitMaster.Master",
-              "RelativeDocumentMoniker": "Admin\\FruitMaster.Master",
-              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\OnlineFruitDelivery\\Admin\\FruitMaster.Master",
-              "RelativeToolTip": "Admin\\FruitMaster.Master",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-10-15T15:50:48.921Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ManageUser.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\OnlineFruitDelivery\\Admin\\ManageUser.aspx.cs",
-              "RelativeDocumentMoniker": "Admin\\ManageUser.aspx.cs",
-              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\OnlineFruitDelivery\\Admin\\ManageUser.aspx.cs",
-              "RelativeToolTip": "Admin\\ManageUser.aspx.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAuwDQAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-13T04:00:25.519Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ManageOrder.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\OnlineFruitDelivery\\Admin\\ManageOrder.aspx.cs",
-              "RelativeDocumentMoniker": "Admin\\ManageOrder.aspx.cs",
-              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\OnlineFruitDelivery\\Admin\\ManageOrder.aspx.cs",
-              "RelativeToolTip": "Admin\\ManageOrder.aspx.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-13T04:03:16.644Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "ManageUser.aspx",
               "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\OnlineFruitDelivery\\Admin\\ManageUser.aspx",
               "RelativeDocumentMoniker": "Admin\\ManageUser.aspx",
@@ -191,33 +156,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Dashboard.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\OnlineFruitDelivery\\Admin\\Dashboard.aspx.cs",
-              "RelativeDocumentMoniker": "Admin\\Dashboard.aspx.cs",
-              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\OnlineFruitDelivery\\Admin\\Dashboard.aspx.cs",
-              "RelativeToolTip": "Admin\\Dashboard.aspx.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAqwCgAAABLAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "ManageOrder.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\OnlineFruitDelivery\\Admin\\ManageOrder.aspx.cs",
+              "RelativeDocumentMoniker": "Admin\\ManageOrder.aspx.cs",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\OnlineFruitDelivery\\Admin\\ManageOrder.aspx.cs",
+              "RelativeToolTip": "Admin\\ManageOrder.aspx.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAowBwAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-13T03:39:37.881Z",
+              "WhenOpened": "2025-10-13T04:03:16.644Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ManageOrder.aspx",
-              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\OnlineFruitDelivery\\Admin\\ManageOrder.aspx",
-              "RelativeDocumentMoniker": "Admin\\ManageOrder.aspx",
-              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\OnlineFruitDelivery\\Admin\\ManageOrder.aspx",
-              "RelativeToolTip": "Admin\\ManageOrder.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-10-13T03:36:41.799Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 14,
               "Title": "Dashboard.aspx",
               "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\OnlineFruitDelivery\\Admin\\Dashboard.aspx",
               "RelativeDocumentMoniker": "Admin\\Dashboard.aspx",
@@ -230,20 +182,85 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ContactList.aspx",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\OnlineFruitDelivery\\Admin\\ContactList.aspx",
+              "RelativeDocumentMoniker": "Admin\\ContactList.aspx",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\OnlineFruitDelivery\\Admin\\ContactList.aspx",
+              "RelativeToolTip": "Admin\\ContactList.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-10-15T16:45:53.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FruitMaster.Master",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\OnlineFruitDelivery\\Admin\\FruitMaster.Master",
+              "RelativeDocumentMoniker": "Admin\\FruitMaster.Master",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\OnlineFruitDelivery\\Admin\\FruitMaster.Master",
+              "RelativeToolTip": "Admin\\FruitMaster.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-10-15T15:50:48.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ManageUser.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\OnlineFruitDelivery\\Admin\\ManageUser.aspx.cs",
+              "RelativeDocumentMoniker": "Admin\\ManageUser.aspx.cs",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\OnlineFruitDelivery\\Admin\\ManageUser.aspx.cs",
+              "RelativeToolTip": "Admin\\ManageUser.aspx.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAswD4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T04:00:25.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Dashboard.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\OnlineFruitDelivery\\Admin\\Dashboard.aspx.cs",
+              "RelativeDocumentMoniker": "Admin\\Dashboard.aspx.cs",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\OnlineFruitDelivery\\Admin\\Dashboard.aspx.cs",
+              "RelativeToolTip": "Admin\\Dashboard.aspx.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwCkAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T03:39:37.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ManageOrder.aspx",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\OnlineFruitDelivery\\Admin\\ManageOrder.aspx",
+              "RelativeDocumentMoniker": "Admin\\ManageOrder.aspx",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\OnlineFruitDelivery\\Admin\\ManageOrder.aspx",
+              "RelativeToolTip": "Admin\\ManageOrder.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-10-13T03:36:41.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 15,
               "Title": "Checkout.aspx.cs",
               "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\OnlineFruitDelivery\\Checkout.aspx.cs",
               "RelativeDocumentMoniker": "Checkout.aspx.cs",
               "ToolTip": "C:\\Users\\lenovo\\source\\repos\\OnlineFruitDelivery\\Checkout.aspx.cs",
               "RelativeToolTip": "Checkout.aspx.cs",
-              "ViewState": "AgIAAFkAAAAAAAAAAAAcwJIAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAYwJcAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-08T10:17:52.665Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 9,
               "Title": "Index.aspx",
               "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\OnlineFruitDelivery\\Index.aspx",
               "RelativeDocumentMoniker": "Index.aspx",
@@ -256,7 +273,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 19,
               "Title": "Login.aspx.cs",
               "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\OnlineFruitDelivery\\Login.aspx.cs",
               "RelativeDocumentMoniker": "Login.aspx.cs",
@@ -269,7 +286,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 1,
               "Title": "AddProduct.aspx",
               "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\OnlineFruitDelivery\\Admin\\AddProduct.aspx",
               "RelativeDocumentMoniker": "Admin\\AddProduct.aspx",
@@ -282,7 +299,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 18,
               "Title": "AddProduct.aspx.cs",
               "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\OnlineFruitDelivery\\Admin\\AddProduct.aspx.cs",
               "RelativeDocumentMoniker": "Admin\\AddProduct.aspx.cs",
@@ -295,20 +312,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 4,
               "Title": "AddFruitType.aspx.cs",
               "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\OnlineFruitDelivery\\Admin\\AddFruitType.aspx.cs",
               "RelativeDocumentMoniker": "Admin\\AddFruitType.aspx.cs",
               "ToolTip": "C:\\Users\\lenovo\\source\\repos\\OnlineFruitDelivery\\Admin\\AddFruitType.aspx.cs",
               "RelativeToolTip": "Admin\\AddFruitType.aspx.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEcAAAAAAAAAAAA9wGEAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-09T02:38:44.363Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "Login.aspx",
               "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\OnlineFruitDelivery\\Login.aspx",
               "RelativeDocumentMoniker": "Login.aspx",
@@ -321,7 +338,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "ViewDetails.aspx.cs",
               "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\OnlineFruitDelivery\\ViewDetails.aspx.cs",
               "RelativeDocumentMoniker": "ViewDetails.aspx.cs",
@@ -334,7 +351,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "ViewDetails.aspx",
               "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\OnlineFruitDelivery\\ViewDetails.aspx",
               "RelativeDocumentMoniker": "ViewDetails.aspx",
@@ -347,7 +364,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "AdminLogin.aspx.cs",
               "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\OnlineFruitDelivery\\Admin\\AdminLogin.aspx.cs",
               "RelativeDocumentMoniker": "Admin\\AdminLogin.aspx.cs",
@@ -360,7 +377,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 24,
               "Title": "AdminLogin.aspx",
               "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\OnlineFruitDelivery\\Admin\\AdminLogin.aspx",
               "RelativeDocumentMoniker": "Admin\\AdminLogin.aspx",
@@ -373,7 +390,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 20,
               "Title": "Register.aspx.cs",
               "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\OnlineFruitDelivery\\Register.aspx.cs",
               "RelativeDocumentMoniker": "Register.aspx.cs",
@@ -386,7 +403,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "Register.aspx",
               "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\OnlineFruitDelivery\\Register.aspx",
               "RelativeDocumentMoniker": "Register.aspx",
@@ -399,20 +416,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 16,
               "Title": "AddFruitType.aspx",
               "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\OnlineFruitDelivery\\Admin\\AddFruitType.aspx",
               "RelativeDocumentMoniker": "Admin\\AddFruitType.aspx",
               "ToolTip": "C:\\Users\\lenovo\\source\\repos\\OnlineFruitDelivery\\Admin\\AddFruitType.aspx",
               "RelativeToolTip": "Admin\\AddFruitType.aspx",
-              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2025-10-08T16:32:38.891Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 6,
               "Title": "Checkout.aspx",
               "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\OnlineFruitDelivery\\Checkout.aspx",
               "RelativeDocumentMoniker": "Checkout.aspx",
@@ -425,20 +442,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 3,
               "Title": "ViewCart.aspx.cs",
               "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\OnlineFruitDelivery\\ViewCart.aspx.cs",
               "RelativeDocumentMoniker": "ViewCart.aspx.cs",
               "ToolTip": "C:\\Users\\lenovo\\source\\repos\\OnlineFruitDelivery\\ViewCart.aspx.cs",
               "RelativeToolTip": "ViewCart.aspx.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAAwDEAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAtwIMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-08T10:12:02.168Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 0,
               "Title": "Shop.aspx",
               "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\OnlineFruitDelivery\\Shop.aspx",
               "RelativeDocumentMoniker": "Shop.aspx",
@@ -451,7 +468,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "Shop.aspx.cs",
               "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\OnlineFruitDelivery\\Shop.aspx.cs",
               "RelativeDocumentMoniker": "Shop.aspx.cs",
@@ -464,13 +481,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 5,
               "Title": "ViewCart.aspx",
               "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\OnlineFruitDelivery\\ViewCart.aspx",
               "RelativeDocumentMoniker": "ViewCart.aspx",
               "ToolTip": "C:\\Users\\lenovo\\source\\repos\\OnlineFruitDelivery\\ViewCart.aspx",
               "RelativeToolTip": "ViewCart.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2025-10-08T09:57:18.61Z",
               "EditorCaption": ""
